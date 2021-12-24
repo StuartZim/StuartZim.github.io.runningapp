@@ -28,7 +28,8 @@ h1 {
 
 #firstName1 {
     background: rgb(255, 254, 254);
-    color: rgb(15, 173, 36);
+    color: rgb(0, 0, 0);
+    width: 100px;
 }
 
 span {
