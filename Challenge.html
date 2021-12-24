@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Challenge</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <h1>Nic's Challenge</h1>
+
+    <P>Now its time to work, if you dare!</P>
+    <form>
+        <label for="firstName ">Enter your name</label>
+        <input type="text " name="firstName " id="firstName1">
+    </form>
+
+    <p>Select your level for the difficulty of your challenge.</p>
+    <div class="radBtn">
+
+        <input type="radio" name="difficulty" id="radEasy" value="Easy" checked=true>
+        <label for="radEasy">Easy</label><br>
+
+
+        <input type="radio" name="difficulty" id="radMedium" value="Medium">
+        <label for="radMedium">Medium</label><br>
+
+        <input type="radio" name="difficulty" id="radHard" value="Hard">
+        <label for="radHard">Challenging</label><br>
+    </div>
+
+    <div>
+        <button class="btn">Click for your challenge</button>
+    </div>
+
+    <div>
+        <p id="challenge1">
+        </p>
+
+        <p id="ending"></p>
+    </div>
+    <script src="app.js "></script>
+
+</body>
+
+</html>

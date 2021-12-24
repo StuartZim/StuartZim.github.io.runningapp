@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background: black;
+    color: greenyellow;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.btn {
+    margin-top: 2em;
+    background-color: rgb(221, 23, 122);
+    color: black;
+    border: white 3px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 30px;
+}
+
+.radBtn {
+    text-align: left;
+    margin: 0 auto;
+    width: 150px;
+}
+
+#firstName1 {
+    background: rgb(255, 254, 254);
+    color: rgb(15, 173, 36);
+}
+
+span {
+    width: 80px;
+    color: white;
+    background-color: rgb(216, 35, 126);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px;
+    margin-top: 2em;
+    border: white 3px solid;
+}
+
+.click {
+    margin: 20px;
+}
+
+.picture {
+    width: 140px;
+    height: 200px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+#Welcome {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.Well {
+    margin: 0 auto;
+}
